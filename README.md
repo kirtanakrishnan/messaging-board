@@ -8,7 +8,7 @@ This message board allows multiple users to post their messages and view them in
 4. Users on multiple devices can post on the same message board and view each other's messages.
 
 Additional/Bonus Feature:
-- Users can like other peoples' messages. However, they can only like a message once. 
+- Users can like other peoples' messages. They can only like a message once. 
 
 Components:
 The main component of this project is the "Add A Message" Button, which opens up a Modal popup and allows users to type and submit
