@@ -17,7 +17,7 @@ uses firebase db to store messages and allow users from multiple devices to view
 
 How to run messaging-board:
 1. Download the zip file
-2. In the project directory, type 'npm install' into terminal
+2. In the project directory/your IDE, type 'npm install' into terminal
 3. Type 'npm start' 
 
 Runs the app in the development mode.\
