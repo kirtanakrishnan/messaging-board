@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+# Messaging-Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This message board allows multiple users to post their messages and view them in real-time. It meets the following requirements:
 
-## Available Scripts
+1. Users can type a message and post it to the message board.
+2. Messages must be non-empty, and at most 128 characters long.
+3. Users can see the messages from most to least recent.
+4. Users on multiple devices can post on the same message board and view each other's messages.
 
-In the project directory, you can run:
+Additional/Bonus Feature:
+- Users can like other peoples' messages. However, they can only like a message once. 
 
-### `npm start`
+Components:
+The main component of this project is the "Add A Message" Button, which opens up a Modal popup and allows users to type and submit
+their message to the message board. Another feature includes the "like" button, which allows users to like each other's messages. This project also
+uses firebase db to store messages and allow users from multiple devices to view and interact with the same message board.
+
+How to run messaging-board:
+1. Download the zip file
+2. In the project directory, type 'npm install' into terminal
+3. Type 'npm start' 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
